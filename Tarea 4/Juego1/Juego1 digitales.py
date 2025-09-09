@@ -42,7 +42,7 @@ enemy_speed = 3
 # Puntuación y niveles
 score = 0
 level = 1
-goal = 10  # enemigos esquivados para subir de nivel
+goal = 30 # enemigos esquivados para subir de nivel
 
 # Reiniciar nivel
 def reset_level(new_level=False):
@@ -128,3 +128,4 @@ while running:
     clock.tick(60)
 
 pygame.quit()
+
